@@ -1,0 +1,25 @@
+.about{
+    &-content{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 50px;
+        width: 456px;
+
+        h1{
+           font-family: 'Times New Roman', Times, serif;
+           font-weight: 600px;
+           font-size: 35px;
+           line-height: 35px;
+           color:#000000;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600px;
+            font-size: 16px;
+            line-height: 20px;
+            color:#000000;
+            padding-top:50px;
+         }
+    }
+}

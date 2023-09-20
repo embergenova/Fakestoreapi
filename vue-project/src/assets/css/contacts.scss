@@ -1,0 +1,29 @@
+.contacts{
+
+    &-maps{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+        width: 873px;
+
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600px;
+            font-size: 48px;
+            line-height: 30px;
+            color:#000000;
+            padding-top:50px;
+        }
+        
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600px;
+            font-size: 24px;
+            line-height: 24px;
+            color:#000000;
+            padding-top:50px;
+            width: 300px;
+        }
+    }
+}

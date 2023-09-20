@@ -1,0 +1,63 @@
+.cardDet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px gray;
+    margin: 30px auto;
+
+    &-img{
+        max-width: 300px;
+        height: 400px;
+         img{
+            width: 100%;
+         }
+    }
+    &-content{
+        padding-left: 10px;
+        width: 550px;
+        h3{
+            font-family: san-serif;
+            font-weight: 600px;
+            font-size: 28px;
+            line-height: 40px;
+            color:hsl(0, 0%, 0%);
+            padding-top:10px;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600px;
+            font-size: 16px;
+            line-height: 16px;
+            color:#000000;
+            padding-top:25px;
+        }
+    }
+    &-btn{
+        display: flex;
+        gap:30px;
+        align-items: center;
+        .det{
+            width: 360px;
+            height: 48px;
+            background: #11AE55;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px -2px #11AE55;
+            color: #fff;
+            font-weight: 400px;
+            font-size: 16px;
+            border: none;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600px;
+            font-size: 16px;
+            line-height: 16px;
+            color:#000000;
+            padding-top:10px;
+            width: 300px;
+        }
+    }
+}
